@@ -16,6 +16,8 @@ cd Desktop/JFD/JFD08/GALAPAGOS/HMAPSTE_08
 coqtop -opt
 *)
 
+Global Set Asymmetric Patterns.
+
 Require Import Arith.
 Require Import EqNat.
 Require Export Reals.
