@@ -1795,7 +1795,6 @@ induction i.
                tauto.
                simpl in H.
                  tauto.
-               simpl H in |- *.
                  unfold prec_L in H.
                  simpl in H.
                  unfold prec_L in H.
