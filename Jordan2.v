@@ -17,6 +17,10 @@ REULTS ABOUT orbits AND rem: OK (August 2008)
 ============================================================*)
 
 Require Export Jordan1. 
+Require Euclid.
+Require Compare.
+Require Recdef.
+Require Arith.
 
 (*=========================================================
                      SETS OF DARTS 
@@ -2633,7 +2637,7 @@ Qed.
 
 (* WE HAVE: z^i = z^(i mod p) FOR ALL i *)
 
-Require Import Euclid.
+Import Euclid.
 
 (* RECALL:
 modulo
@@ -2675,7 +2679,7 @@ assert (p > 0)%nat.
   omega.
 Qed.
 
-Require Export Compare.
+Export Compare.
 
 (* ALL DARTS IN AN f-ORBIT HAVE THE SAME PERIOD: *) 
 
@@ -3220,7 +3224,7 @@ Qed.
           COMPLEMENTS FOR cell degrees (July 08)
 =======================================================*)
 
-Require Import Recdef.
+Import Recdef.
 
 Open Scope nat_scope. 
 
@@ -3478,7 +3482,7 @@ apply degree_diff.
  tauto.
 Qed.
 
-Require Import Arith.
+Import Arith.
 
 (* OK!! *)
 
