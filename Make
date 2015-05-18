@@ -1,4 +1,3 @@
--arg -no-native-compiler
 -R . JordanCurveTheorem
 Jordan10.v
 Jordan1.v
